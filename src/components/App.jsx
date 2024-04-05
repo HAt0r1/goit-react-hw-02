@@ -48,7 +48,7 @@ const App = () => {
       {reviewTotal !== 0 ? (
         <Feedback object={data} total={reviewTotal} percent={percentCount} />
       ) : (
-        <p className={style.message}>Not feedback yet</p>
+        <p className={style.message}>No feedback yet</p>
       )}
     </>
   );
