@@ -1,0 +1,22 @@
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+  color: #fafafa;
+  background-color: #ffa500;
+  cursor: pointer;
+  transition: background-color 275ms ease-in;
+  margin-bottom: 40px;
+}
+
+.button:hover {
+  background-color: #c99328;
+}
