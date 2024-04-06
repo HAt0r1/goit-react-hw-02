@@ -1,6 +1,7 @@
 import Description from "./Description/Description";
 import Options from "./Options/Options";
 import Feedback from "./Feedback/Feedback";
+import Notification from "./Notification/Notification";
 import { useState, useEffect } from "react";
 
 import style from "./App.module.css";
@@ -48,7 +49,7 @@ const App = () => {
       {reviewTotal !== 0 ? (
         <Feedback object={data} total={reviewTotal} percent={percentCount} />
       ) : (
-        <p className={style.message}>No feedback yet</p>
+        <Notification />
       )}
     </>
   );
